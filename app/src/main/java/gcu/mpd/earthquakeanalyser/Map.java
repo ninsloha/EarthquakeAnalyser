@@ -23,6 +23,10 @@ import com.google.android.gms.maps.model.MarkerOptions;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 
+// Name                 Narinder Kaur
+// Student ID           S1516125
+// Programme of Study   Bsc Hons Computing
+
 public class Map extends Fragment implements OnMapReadyCallback {
 
     ArrayList<String> location = new ArrayList<String>();

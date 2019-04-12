@@ -38,6 +38,7 @@
         android:label="S1516125"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
 
         <!--

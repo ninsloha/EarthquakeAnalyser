@@ -1579,7 +1579,6 @@ drawable tooltip_frame_light
 id ALT
 id CTRL
 id FUNCTION
-id LatLong
 id ListView
 id META
 id Map
@@ -1765,7 +1764,6 @@ id list_item
 id live_stream_indicator
 id live_stream_seek_bar
 id loading_indicator
-id location
 id logo_only
 id map
 id mapf
@@ -2024,7 +2022,6 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
-layout filterlist
 layout furthest_fragment
 layout map_fragment
 layout mr_chooser_dialog

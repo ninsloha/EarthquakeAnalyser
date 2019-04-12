@@ -1,20 +1,17 @@
 package gcu.mpd.earthquakeanalyser;
 
+// Name                 Narinder Kaur
+// Student ID           S1516125
+// Programme of Study   Bsc Hons Computing
+
 import android.content.Context;
-import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.BaseAdapter;
 import android.widget.Filter;
 import android.widget.Filterable;
-import android.widget.ListAdapter;
 import android.widget.ListView;
-import android.widget.TextView;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -50,21 +47,9 @@ public class Adapter extends ArrayAdapter <EarthquakeAnalyser> implements Filter
             convertView = layoutInflater.inflate(R.layout.content_main, parent, false);
             ListView list = (ListView) convertView.findViewById(R.id.ListView);
         }
-        /*final Context context = parent.getContext();
-        layoutInflater = LayoutInflater.from(context);*/
-
-        TextView location = convertView.findViewById(R.id.location);
-        TextView LatLong = convertView.findViewById(R.id.LatLong);
-
 
 
         String eqa = backupItems.get (position);
-
-        location.setText(backupItems.get(position));
-       // LatLong.setText(eqa.getLatlong());
-
-
-
 
         return convertView;
 

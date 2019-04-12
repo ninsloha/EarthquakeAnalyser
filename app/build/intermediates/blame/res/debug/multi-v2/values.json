@@ -268,11 +268,9 @@
                 {
                     "source": "C:\\Users\\User\\Desktop\\Fourth Year Modules\\Mobile Platform Development\\EarthquakeAnalyser\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "-1,1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startColumns": "-1,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startOffsets": "-1,17,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
-                        "endColumns": "-1,45,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
-                        "endOffsets": "-1,58,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
                     },
                     "to": {
                         "startLines": "697,698,762,768,770,793,794,795,796,797,805,813,815,820",
@@ -346,12 +344,12 @@
                 {
                     "source": "C:\\Users\\User\\Desktop\\Fourth Year Modules\\Mobile Platform Development\\EarthquakeAnalyser\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
-                        "startLines": "3,-1,-1,-1",
+                        "startLines": "5,-1,-1,-1",
                         "startColumns": "4,-1,-1,-1",
-                        "startOffsets": "57,-1,-1,-1",
-                        "endLines": "8,-1,-1,-1",
+                        "startOffsets": "66,-1,-1,-1",
+                        "endLines": "10,-1,-1,-1",
                         "endColumns": "12,-1,-1,-1",
-                        "endOffsets": "374,-1,-1,-1"
+                        "endOffsets": "383,-1,-1,-1"
                     },
                     "to": {
                         "startLines": "831,837,838,842",

@@ -1,5 +1,9 @@
 package gcu.mpd.earthquakeanalyser;
 
+// Name                 Narinder Kaur
+// Student ID           S1516125
+// Programme of Study   Bsc Hons Computing
+
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;

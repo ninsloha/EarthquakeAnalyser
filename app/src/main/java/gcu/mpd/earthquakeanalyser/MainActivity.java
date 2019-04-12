@@ -1,4 +1,9 @@
 package gcu.mpd.earthquakeanalyser;
+
+// Name                 Narinder Kaur
+// Student ID           S1516125
+// Programme of Study   Bsc Hons Computing
+
 import android.annotation.SuppressLint;
 import android.app.DatePickerDialog;
 import android.app.ProgressDialog;
@@ -32,11 +37,6 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
-
-//
-// Name                 Narinder Kaur
-// Student ID           S1516125
-// Programme of Study   Bsc Hons Computing
 
 
 public class MainActivity extends AppCompatActivity  implements NavigationView.OnNavigationItemSelectedListener/*implements OnClickListener*/ {
@@ -122,7 +122,6 @@ public class MainActivity extends AppCompatActivity  implements NavigationView.O
 
                 EarthquakeAnalyser earthquake = new EarthquakeAnalyser();
 
-                // Returns the type of current event: START_TAG, END_TAG, START_DOCUMENT, END_DOCUMENT etc..
                 int eventType = xpp.getEventType(); //loop control
 
                 while (eventType != XmlPullParser.END_DOCUMENT) {
@@ -132,7 +131,6 @@ public class MainActivity extends AppCompatActivity  implements NavigationView.O
                         if (xpp.getName().equalsIgnoreCase("item")) {
                             insideItem = true;
                         }
-                        //if the tag is called "title"
                         else if (xpp.getName().equalsIgnoreCase("description")) {
                             if (insideItem) {
                                 // extract the text between <title> and </title>
@@ -163,12 +161,11 @@ public class MainActivity extends AppCompatActivity  implements NavigationView.O
                             }
                         }
                     }
-                    //if we are at an END_TAG and the END_TAG is called "item"
                     else if (eventType == XmlPullParser.END_TAG && xpp.getName().equalsIgnoreCase("item")) {
                         insideItem = false;
                     }
 
-                    eventType = xpp.next(); //move to next element
+                    eventType = xpp.next();
                 }
 
 
@@ -190,7 +187,7 @@ public class MainActivity extends AppCompatActivity  implements NavigationView.O
             adapter = new ArrayAdapter<String>(MainActivity.this, android.R.layout.simple_list_item_1, titles);
 
             ListView.setAdapter(adapter);
-            System.out.println("In ADAPTER");
+            System.out.println("Adapter");
 
             progressDialog.dismiss();
         }
@@ -286,21 +283,6 @@ public class MainActivity extends AppCompatActivity  implements NavigationView.O
                             dateStart.setHours(0);
                             dateStart.setMinutes(0);
                             dateStart.setSeconds(0);
-                            /*
-                            for loop.....
-
-                            if(date.after (dateStart) && date.before(dateEnd)){
-
-                        filtered.add(eqa);
-                    }
-                }
-
-                System.out.println(filtered.size());
-                if (filtered.size() != 0){
-                    adapter = Adapter (MainActivity.this, filtered);
-                    ListView.setAdapter(adapter);
-                }*/
-
                         }
                     }, year, month, dayOfMonth);
                     datepicker1.show();

@@ -29,6 +29,10 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
+// Name                 Narinder Kaur
+// Student ID           S1516125
+// Programme of Study   Bsc Hons Computing
+
 
 public class Search extends Fragment {
 
